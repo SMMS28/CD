@@ -6,7 +6,6 @@
 enum TokenType {
     KEYWORD, IDENTIFIER, CONSTANT, OPERATOR, SPECIAL_SYMBOL
 };
-
 int isKeyword(char *str) {
     char *keywords[] = {"int", "float", "if", "else", "while", "for", "return"};
     int numKeywords = sizeof(keywords) / sizeof(keywords[0]);
