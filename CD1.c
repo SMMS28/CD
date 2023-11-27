@@ -37,7 +37,6 @@ int main() {
 
     printf("Enter the C program:\n");
     fgets(program, sizeof(program), stdin);
-
     printf("Identified Tokens:\n");
     tokenize(program);
 
