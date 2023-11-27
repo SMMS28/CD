@@ -34,7 +34,6 @@ void tokenize(char *program) {
 }
 int main() {
     char program[1000];
-
     printf("Enter the C program:\n");
     fgets(program, sizeof(program), stdin);
     printf("Identified Tokens:\n");
