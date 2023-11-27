@@ -32,7 +32,6 @@ void tokenize(char *program) {
         token = strtok(NULL, " \t\n\r;(){}[],*+-/=<>&|!");
     }
 }
-
 int main() {
     char program[1000];
 
