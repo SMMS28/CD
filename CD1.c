@@ -12,8 +12,7 @@ int isKeyword(char *str) {
         if (strcmp(str, keywords[i]) == 0) {
             return 1;}
     }
-    return 0;
-}
+    return 0;}
 void tokenize(char *program) {
     char *token = strtok(program, " \t\n\r;(){}[],*+-/=<>&|!");
     while (token != NULL) {
