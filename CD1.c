@@ -10,8 +10,7 @@ int isKeyword(char *str) {
     int numKeywords = sizeof(keywords) / sizeof(keywords[0]);
     for (int i = 0; i < numKeywords; i++) {
         if (strcmp(str, keywords[i]) == 0) {
-            return 1;}
-    }
+            return 1;}}
     return 0;}
 void tokenize(char *program) {
     char *token = strtok(program, " \t\n\r;(){}[],*+-/=<>&|!");
