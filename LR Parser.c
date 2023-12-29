@@ -9,7 +9,6 @@ void push(char c)
 	top++;
 	stack[top]=c;
 }
-
 char pop()
 {
 	char c;
